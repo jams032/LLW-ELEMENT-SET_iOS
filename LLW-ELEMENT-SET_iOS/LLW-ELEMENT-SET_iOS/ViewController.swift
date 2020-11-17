@@ -37,11 +37,7 @@ class ViewController: UIViewController {
         func formatElementsForDisplay(_ element: ElementSet) -> String {
             let numbers = element.converged().map { "\($0.value)" }
             let timeStamps = element.converged().map { "\($0.timestamp)" }
-            let strTimes = timeStamps.joined(separator: ", ")
             let str = numbers.joined(separator: ", ")
-            
-            var result = zip(str, strTimes).flatMap { [$0.0, $0.1] }
-            
             return str
         }
     }
