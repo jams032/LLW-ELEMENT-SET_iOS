@@ -15,6 +15,9 @@
 		844064B52564210B0028832F /* LLW_ELEMENT_SET_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844064B42564210B0028832F /* LLW_ELEMENT_SET_iOSTests.swift */; };
 		844064C02564210B0028832F /* LLW_ELEMENT_SET_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844064BF2564210B0028832F /* LLW_ELEMENT_SET_iOSUITests.swift */; };
 		844064CE256422E40028832F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844064CD256422E40028832F /* Main.storyboard */; };
+		844064D1256423500028832F /* ElementSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844064CF256423500028832F /* ElementSet.swift */; };
+		844064D2256423500028832F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844064D0256423500028832F /* CollectionViewCell.swift */; };
+		844064D32564236B0028832F /* ElementSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844064CF256423500028832F /* ElementSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		844064BF2564210B0028832F /* LLW_ELEMENT_SET_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLW_ELEMENT_SET_iOSUITests.swift; sourceTree = "<group>"; };
 		844064C12564210B0028832F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844064CD256422E40028832F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		844064CF256423500028832F /* ElementSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementSet.swift; sourceTree = "<group>"; };
+		844064D0256423500028832F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,8 @@
 				8440649D256421090028832F /* AppDelegate.swift */,
 				8440649F256421090028832F /* SceneDelegate.swift */,
 				844064A1256421090028832F /* ViewController.swift */,
+				844064D0256423500028832F /* CollectionViewCell.swift */,
+				844064CF256423500028832F /* ElementSet.swift */,
 				844064CD256422E40028832F /* Main.storyboard */,
 				844064A62564210B0028832F /* Assets.xcassets */,
 				844064A82564210B0028832F /* LaunchScreen.storyboard */,
@@ -259,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844064D2256423500028832F /* CollectionViewCell.swift in Sources */,
 				844064A2256421090028832F /* ViewController.swift in Sources */,
+				844064D1256423500028832F /* ElementSet.swift in Sources */,
 				8440649E256421090028832F /* AppDelegate.swift in Sources */,
 				844064A0256421090028832F /* SceneDelegate.swift in Sources */,
 			);
@@ -270,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844064B52564210B0028832F /* LLW_ELEMENT_SET_iOSTests.swift in Sources */,
+				844064D32564236B0028832F /* ElementSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
